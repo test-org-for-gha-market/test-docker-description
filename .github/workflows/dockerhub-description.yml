@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Docker Hub Description
-        uses: test-gha-market/dockerhub-description@test-v0
+        uses: test-gha-market/dockerhub-description@v3.3.0
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
